@@ -30,7 +30,7 @@ function createBot() {
          setTimeout(() => {
             bot.chat(`/register ${password} ${password}`);
             bot.chat(`/login ${password}`);
-         }, 500);
+         }, 1000);
 
          console.log(`[Auth] Authentification commands executed.`);
       }
