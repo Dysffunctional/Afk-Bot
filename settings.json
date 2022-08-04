@@ -1,12 +1,12 @@
 {
   "bot-account": {
-    "username": "bot",
+    "username": "Sombrero",
     "password": "",
     "type": "mojang"
   },
 
   "server": {
-    "ip": "localhost",
+    "ip": "play.bombcraft.tk",
     "port": 25565,
     "version": "1.17.1"
   },
@@ -20,30 +20,30 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+      "enabled": true,
+      "password": "blablabla"
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 60,
+      "repeat-delay": 1200,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "Jukkes is my daddy ",
+        "crying from boredom ",
+        "I don't want to be alone anymore ",
+        "I want back home"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
