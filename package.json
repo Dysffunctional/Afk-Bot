@@ -4,6 +4,7 @@
   "description": "Afk bot for minecraft servers.",
   "main": "bot.js",
   "scripts": {
+    "heroku-postbuild": "node ." // if provided, this will run instead
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "urFate",
