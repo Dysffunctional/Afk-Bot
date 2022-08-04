@@ -5,7 +5,8 @@
   "main": "bot.js",
   "scripts": {
     "build": "npm start"
-    "heroku-postbuild": "node ." { 
+    "heroku-postbuild": "node ." 
+    {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "urFate",
