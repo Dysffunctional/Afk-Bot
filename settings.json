@@ -22,6 +22,7 @@
     "auto-auth": {
       "enabled": true,
       "password": "blablabla"
+      "delay": 10,
     },
 
     "anti-afk": {
